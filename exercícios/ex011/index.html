@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Testando imagens dinâmicas</h1>
+    <p>Abra essa imagem em diferentes tamanhos de navegador ou dispositivos diferentes.</p>
+    <picture>
+        <source media="(max-width: 850px)" srcset="imagens/foto-p.jpg" type="image/jpg">
+        <source media="(max-width: 1250px)" srcset="imagens/foto-m.jpg" type="image/jpg">
+        <img src="imagens/foto-g.jpg" alt="Imagem Flexível">
+    </picture>
+    <h1>Testando áudio</h1>
+    <p>Para adicionar áudios basta utilizar a tag AUDIO e SOURCE:SRC</p>
+    <audio preload="metadata" controls>
+        <source src="midias/retribution-neffex.mp3" type="audio/mpeg">
+    </audio>
+    <p>Caso o player não esteja aparecendo, <a href="midias/retribution-neffex.mp3" download="retribution-neffex.mp3" type="audio/mpeg">clique aqui</a> para fazer download do arquivo de áudio.</p>
+</body>
+</html>

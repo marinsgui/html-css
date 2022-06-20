@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #9797F5, #5f6066);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1#principal{
+    background-color: #0E131F;
+    color: white;
+    text-align: center;
+}
+h1{
+    color: #ffffff;
+}
+h2{
+    color: #433f52;
+}
+.cap1{
+    color: rgb(150, 221, 42);
+}
+.cap2{
+    color: rgb(206, 206, 4);
+}
+.cap3{
+    color: rgb(197, 2, 2);
+}
+.titulos{
+    background-color: #59546C;
+}
